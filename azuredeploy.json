@@ -47,13 +47,13 @@
             "dependsOn": [
               "[resourceId('Microsoft.Web/sites', parameters('appName'))]"
             ],
-            "WEBSITES_PORT":1234,
             "tags": {
               "displayName": "appSettings"
             },
             "properties": {
+              "WEBSITES_PORT":1234,
               "DOCKER_CUSTOM_IMAGE_NAME": "abornst/tfjs4azure",
-              "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "abornst/tfjs4azure"
+              "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "abornst/tfjs4azure -p 80:1234"
             }
           }
         ]

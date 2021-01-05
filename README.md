@@ -1,6 +1,6 @@
 # TFJS4Azure - Tensorflow JS For Azure
 
-A example repository for serving [Tensorflow JS Pose Estimation](https://github.com/tensorflow/tfjs-models/tree/master/posenet) on Azure [Web Apps for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/) with just one click. 
+A example repository for serving [Tensorflow JS Pose Estimation](https://github.com/tensorflow/tfjs-models/tree/master/posenet) on Azure [Web Apps for Containers](https://azure.microsoft.com/services/app-service/containers/?WT.mc_id=aiml-0000-abornst) with just one click. 
 
 ### Click below to get started!
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
